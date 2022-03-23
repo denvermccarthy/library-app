@@ -6,6 +6,7 @@ import { Switch } from 'react-router-dom';
 import Book from './components/book/Book';
 import { Link } from 'react-router-dom';
 import Home from './views/Books/Home';
+import BookDetail from './views/Books/BookDetail';
 
 function App() {
   // TODO: Add routes to books & views
@@ -18,11 +19,11 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/list">
+        <Route exact path="/list">
           <BookList />
         </Route>
-        <Route exact path="/list/:id">
-          <Book />
+        <Route path="/list/:id">
+          <BookDetail />
         </Route>
       </Switch>
     </BrowserRouter>
