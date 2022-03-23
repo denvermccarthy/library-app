@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import Author from '../author/Author';
 import './Book.css';
 

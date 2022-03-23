@@ -3,8 +3,6 @@ import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 import { Switch } from 'react-router-dom';
-import Book from './components/book/Book';
-import { Link } from 'react-router-dom';
 import Home from './views/Books/Home';
 import BookDetail from './views/Books/BookDetail';
 
