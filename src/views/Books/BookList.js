@@ -26,7 +26,7 @@ function BookList() {
       <ul className="book-list" aria-label="book list">
         {books.map((book) => (
           <li key={book.book_id}>
-            <Link exact to={`/list/${book.book_id}`}>
+            <Link exact to={`/book/${book.book_id}`}>
               <Book book={book} />
             </Link>
           </li>
